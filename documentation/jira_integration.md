@@ -19,6 +19,6 @@
 
 8. Once logged in, select the **organization** you want to use with the Jira app.
 
-9. Now, when you create a Jira ticket, you should see an **"IT environments (OptScale)"** field. This allows you to assign available **Shared Environments** to the ticket.
+9. Now, when you create a Jira ticket, you should see an **"IT environments (SynOps)"** field. This allows you to assign available **Shared Environments** to the ticket.
 
 **Don't forget**: create a **Shareable Environment** in your OptScale organization beforehand, so it can be used in Jira tickets.
