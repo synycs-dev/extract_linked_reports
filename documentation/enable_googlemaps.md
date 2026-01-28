@@ -2,7 +2,7 @@
 
 This image on the Cost Map page indicates that Google Maps is not correctly set up.
 
-![enable-googlemaps](images/enable-googlemaps.png)
+![enable-googlemaps](Images/enable-googlemaps.png)
 
 Follow the instructions to fix it:
 
