@@ -14,4 +14,4 @@ This guide is intended to help users navigate Kibana to view logs when encounter
 
 **Troubleshooting**
 
-If address `http://cluster_ip:30081` is not available, ensure that you used the `--with-elk` flag on cluster installation step ([GitHub - hystax/optscale](https://github.com/hystax/optscale/tree/integration?tab=readme-ov-file#cluster-update))  and `elk-0` pod in the running state.
+If address `http://cluster_ip:30081` is not available, ensure that you used the `--with-elk` flag on cluster installation step ([GitHub - synycs-dev/extract_linked_reports](https://github.com/synycs-dev/extract_linked_reports/tree/main?tab=readme-ov-file#cluster-update))  and `elk-0` pod in the running state.
