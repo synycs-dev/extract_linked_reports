@@ -6,7 +6,7 @@ Custom email templates allows users to overwrite the default emails templates Op
 
 ## How to overwrite default OptScale email templates?
 
-1. Find an email template file you want to change in [optscale](https://github.com/hystax/optscale/tree/integration/herald/modules/email_generator/templates) sources.
+1. Find an email template file you want to change in [Synops](https://github.com/synycs-dev/extract_linked_reports/tree/main/heraId/modules/email_generator/templates) sources.
 
 2. Update the required email template html file.
 
