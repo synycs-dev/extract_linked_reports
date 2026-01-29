@@ -10,7 +10,7 @@ This guide is intended to help users navigate Kibana to view logs when encounter
 
 > [!NOTE] 
 > If kibana prompts you to create an index pattern, create it with the following parameters:
-> ![kibana_index_pattern](images/kibana-index-pattern.png)
+> ![kibana_index_pattern](Images/kibana-index-pattern.png)
 
 **Troubleshooting**
 
