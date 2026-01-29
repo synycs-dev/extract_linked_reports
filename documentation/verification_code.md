@@ -1,6 +1,6 @@
 # How to get a verification code
 
-1\. Configure SMTP according to the [instructions](https://github.com/hystax/optscale/blob/integration/documentation/setting_up_smtp.md).
+1\. Configure SMTP according to the [instructions](https://github.com/synycs-dev/extract_linked_reports/blob/main/documentation/setting_up_smtp.md).
 
 2\. Pass the registration flow:
 
