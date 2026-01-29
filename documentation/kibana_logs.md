@@ -3,7 +3,7 @@
 This guide is intended to help users navigate Kibana to view logs when encountering issues. By following the outlined steps, you’ll be able to efficiently access and analyze log data, enabling you to identify and troubleshoot potential problems.
 
 1. Open http://cluster_ip:30081
-2. Use the username and password from your own user_template.yaml file ([optscale/optscale-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml#L102))
+2. Use the username and password from your own user_template.yaml file ([synops/synops-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml#L102))
 3. Go to the **Discover** tab
 4. Filter the data by container name `name: *<container_name>*`
 5. Add a **message** filter.
