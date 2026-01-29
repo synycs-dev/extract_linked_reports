@@ -6,7 +6,7 @@ Custom email templates allows users to overwrite the default emails templates Sy
 
 ## How to overwrite default SynOps email templates?
 
-1. Find an email template file you want to change in [synops]((https://github.com/synycs-dev/extract_linked_reports/tree/main/herald/modules/email_generator/templates)) sources.
+1. Find an email template file you want to change in [synops]((https://github.com/hystax/optscale/tree/integration/herald/modules/email_generator/templates)) sources.
 
 3. Update the required email template html file.
 
