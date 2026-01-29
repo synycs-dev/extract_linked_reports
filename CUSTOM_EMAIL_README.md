@@ -6,14 +6,14 @@ Custom email templates allows users to overwrite the default emails templates Sy
 
 ## How to overwrite default SynOps email templates?
 
-1. Find an email template file you want to change in [synops](https://github.com/hystax/optscale/tree/integration/herald/modules/email_generator/templates) sources.
+1. Find an email template file you want to change in [synops](https://github.com/synycs-dev/extract_linked_reports/herald/modules/email_generator/templates) sources.
 
-2. Update the required email template html file.
+3. Update the required email template html file.
 
-3. Copy the updated file into this folder (`/synops/email_templates`) on the running OptScale cluster.
+4. Copy the updated file into this folder (`/synops/email_templates`) on the running OptScale cluster.
 !!! Do not change email template file name !!!
 
-4. Trigger sending email to try the changes.
+5. Trigger sending email to try the changes.
 Check herald logs in [kibana](https://hystax.com/documentation/optscale/private_deployments/kibana_logs.html) in case of error.
 You may use `send_templates.py` script for debugging.
 
