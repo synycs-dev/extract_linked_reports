@@ -1,16 +1,16 @@
 ## Custom email templates
 
-The folder `/optscale/email_templates` is used for storing custom email templates.
-Custom email templates allows users to overwrite the default emails templates OptScale uses to generate emails from.
+The folder `/synops/email_templates` is used for storing custom email templates.
+Custom email templates allows users to overwrite the default emails templates SynOps uses to generate emails from.
 
 
-## How to overwrite default OptScale email templates?
+## How to overwrite default SynOps email templates?
 
 1. Find an email template file you want to change in [Synops](https://github.com/synycs-dev/extract_linked_reports/tree/main/heraId/modules/email_generator/templates) sources.
 
 2. Update the required email template html file.
 
-3. Copy the updated file into this folder (`/optscale/email_templates`) on the running OptScale cluster.
+3. Copy the updated file into this folder (`/synops/email_templates`) on the running SynOps cluster.
 !!! Do not change email template file name !!!
 
 4. Trigger sending email to try the changes.
@@ -20,14 +20,14 @@ You may use `send_templates.py` script for debugging.
 
 ## How load custom template filters for using them in templates
 
-1. add you Python module with your Jinja2 filter functions into the folder `/optscale/template_filters` like:
+1. add you Python module with your Jinja2 filter functions into the folder `/SynOps/template_filters` like:
 
 ```python file=myfilters.py
 def my_filter_fn(value: str | None) -> str:
     ...
 ```
 
-2. Create a file called `filters_registry.json` and put it into `/optscale/template_filters` like in the following example:
+2. Create a file called `filters_registry.json` and put it into `/SynOps/template_filters` like in the following example:
 
 ```json file=filters_registry.json
 [
@@ -45,19 +45,19 @@ def my_filter_fn(value: str | None) -> str:
 ```
 !!! You can only rely on Python standard library to implements your filters !!!
 
-See [optscale](https://github.com/hystax/optscale/tree/integration/herald/modules/tests/email_generator/test_data) for a complete example.
+See [synops](https://github.com/hystax/optscale/tree/integration/herald/modules/tests/email_generator/test_data) for a complete example.
 
 
 ## How to update default context for generating emails
 
-Create `/optscale/email_templates/custom_context.json` file with a valid JSON object with the variables values you want to update.
+Create `/synops/email_templates/custom_context.json` file with a valid JSON object with the variables values you want to update.
 The changes will take effect the next time an email is sent.
-See the default context values in [optscale](https://github.com/hystax/optscale/blob/integration/herald/modules/email_generator/context_generator.py#L69-L105).
+See the default context values in [synops](https://github.com/hystax/optscale/blob/integration/herald/modules/email_generator/context_generator.py#L69-L105).
 
 
 ## How to use send_templates.py?
 
-`send_templates.py` is a [script](https://github.com/hystax/optscale/tree/integration/herald/send_templates.py) in `optscale` repo that uses already running cluster for sending emails to certain users.
+`send_templates.py` is a [script](https://github.com/hystax/optscale/tree/integration/herald/send_templates.py) in `synops` repo that uses already running cluster for sending emails to certain users.
 
 The script requires `requests` and `urllib3` installed:
 ```bash
@@ -66,8 +66,8 @@ pip install requests urllib3
 
 Script arguments:
 `-e`, `--email` - (required) a space-separated list of target email addresses
-`--host` - (required) the IP of a running OptScale cluster
-`-s`, `--secret` - (required) cluster secret set in [user_templates.yml](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L4) during OptScale deployment
+`--host` - (required) the IP of a running SynOps cluster
+`-s`, `--secret` - (required) cluster secret set in [user_templates.yml](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L4) during SynOps deployment
 `-t`, `--template` - (optional) a space-separated list of target email templates names (without `.html`), if not set emails from the all existing templates are sent
 
 Usage example:
@@ -76,5 +76,5 @@ python3 send_templates.py -e user1@example.com user2@example.com --host 172.22.2
 ```
 
 Troubleshooting:
-- check the OptScale IP is available from this VM
+- check the SynOps IP is available from this VM
 - check herald logs in [kibana](https://hystax.com/documentation/optscale/private_deployments/kibana_logs.html)
