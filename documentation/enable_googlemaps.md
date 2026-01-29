@@ -6,7 +6,7 @@ This image on the Cost Map page indicates that Google Maps is not correctly set 
 
 Follow the instructions to fix it:
 
-1\. To configure Google Maps, specify the `google_map_api_key` parameter in your [user_template.yml](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L98) file.
+1\. To configure Google Maps, specify the `google_map_api_key` parameter in your [user_template.yml](https://github.com/synycs-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L98) file.
 
 2\. Update your cluster with the new overlay:
 
