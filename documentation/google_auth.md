@@ -18,11 +18,11 @@ $ cd ~/synops/synops-deploy/
 
 5\. Insert *Client ID* and *Client secret* copied on the third step into the `auth` and `ngui` sections:
 
--   [synops-deploy/overlay/user_template.yml#L89](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L89), 
+-   [synops-deploy/overlay/user_template.yml#L89](https://github.com/synycs-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L89), 
 
--   [synops-deploy/overlay/user_template.yml#L90](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L90),
+-   [synops-deploy/overlay/user_template.yml#L90](https://github.com/synycs-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L90),
 
--   [synops-deploy/overlay/user_template.yml#L96](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L96).
+-   [synops-deploy/overlay/user_template.yml#L96](https://github.com/synycs-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L96).
 
 6\. Launch the command to restart the SynOps with the updated overlay:
 
@@ -46,9 +46,9 @@ $ cd ~/synops/synops-deploy/
 
 5\. Insert *client_id* copied on the third step into the `auth` and `ngui` sections: 
 
--   [synops-deploy/overlay/user_template.yml#L97](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L97),
+-   [synops-deploy/overlay/user_template.yml#L97](https://github.com/synycs-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L97),
 
--   [synops-deploy/overlay/user_template.yml#L91](https://github.com/hystax/optscale/blob/integration/optscale-deploy/overlay/user_template.yml#L91).
+-   [synops-deploy/overlay/user_template.yml#L91](https://github.com/synops-dev/extract_linked_reports/blob/main/synops-deploy/overlay/user_template.yml#L91).
 
 6\. Launch the command to restart the SynOps with the updated overlay:
 
