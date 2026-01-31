@@ -4,7 +4,7 @@ SMTP is the standard protocol for transmitting email messages over the internet.
 
 To set up SMTP on a custom SynOps deployment:
 
-1\. Fill in these fields in overlay/user_template.yml ([SynOps/SynOps-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml)):
+1\. Fill in these fields in overlay/user_template.yml ([synops/synops-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml)):
 
 ```
 # SMTP server and credentials used for sending emails
