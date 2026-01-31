@@ -30,4 +30,4 @@
 
 -   Check the **"herald"** service logs in Kibana when registering a user. The verification code should be sent during this process. Use [this instructions](https://github.com/hystax/optscale/blob/integration/documentation/kibana_logs.md) to access Kibana logs.
 
--   If you encounter SMTP errors, refer to the guide: [Setting Up SMTP](https://github.com/hystax/optscale/blob/integration/documentation/setting_up_smtp.md).
+-   If you encounter SMTP errors, refer to the guide: [Setting Up SMTP](https://github.com/synycs-dev/extract_linked_reports/blob/main/documentation/setting_up_smtp.md).
