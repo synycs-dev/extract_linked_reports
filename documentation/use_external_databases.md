@@ -30,7 +30,7 @@ mongo:
 ```
 
 ## External clickhouse
-1\. Add these fields in overlay/user_template.yml ([SynOps/SynOps-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml)):
+1\. Add these fields in overlay/user_template.yml ([synops/synops-deploy/overlay/user_template.yml](../synops-deploy/overlay/user_template.yml)):
 You can provide credentials
 ```
 # Clickhouse host and credentials
