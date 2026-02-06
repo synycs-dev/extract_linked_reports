@@ -45,7 +45,7 @@ SynOps is an open source FinOps platform that optimizes cloud costs and performa
 
   
 <br>You can check SynOps [live demo](https://synops.in/live-demo) to explore product features on a pre-generated demo organization.
-<br>Learn more about the Hystax OptScale platform and its capabilities at [our website](https://hystax.com).
+<br>Learn more about the Hystax SynOps platform and its capabilities at [our website](https://synops.in).
 
 
 ## Demos
@@ -97,7 +97,7 @@ Run the following commands:
 sudo apt update; sudo apt install python3-pip sshpass git python3-virtualenv python3 python3-venv python3-dev -y
 ```
 
-#### Pulling optscale-deploy scripts
+#### Pulling synops-deploy scripts
 
 Clone the repository
 
@@ -153,7 +153,7 @@ Images will build with version(tag) = local
 
 #### Creating user overlay
 
-Edit file with overlay - [optscale-deploy/overlay/user_template.yml](optscale-deploy/overlay/user_template.yml); see comments in overlay file for guidance.
+Edit file with overlay - [synops-deploy/overlay/user_template.yml](synops-deploy/overlay/user_template.yml); see comments in overlay file for guidance.
 
 Pay attention to "service_credentials" parameter, as SynOps uses it to retrieve cloud pricing data for recommendations calculation.
 
