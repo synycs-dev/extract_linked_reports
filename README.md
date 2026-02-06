@@ -44,7 +44,7 @@ SynOps is an open source FinOps platform that optimizes cloud costs and performa
 <li>VM Power Schedules</li>
 
   
-<br>You can check SynOps [live demo](https://my.optscale.com/live-demo) to explore product features on a pre-generated demo organization.
+<br>You can check SynOps [live demo](https://synops.in/live-demo) to explore product features on a pre-generated demo organization.
 <br>Learn more about the Hystax OptScale platform and its capabilities at [our website](https://hystax.com).
 
 
