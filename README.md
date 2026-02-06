@@ -1,5 +1,5 @@
 <p align="center">
-⭐ Drop a star to support OptScale ⭐
+⭐ Drop a star to support SynOps ⭐
 </p>
 
 # FinOps and cloud cost management platform to run any cloud workload with optimal performance and cost
@@ -7,7 +7,7 @@
 <p align="center">
 <a href="documentation/images/cover-GitHub.png"><img src="documentation/images/FinOps-platform.png" width="40%" align="middle"></a>
 </p>
-OptScale is an open source FinOps platform that optimizes cloud costs and performance for any workload, providing effective cloud cost management for all types of organizations.
+SynOps is an open source FinOps platform that optimizes cloud costs and performance for any workload, providing effective cloud cost management for all types of organizations.
 <br>
 <br>
 <p align="center">
@@ -31,7 +31,7 @@ OptScale is an open source FinOps platform that optimizes cloud costs and perfor
 </div>
 <br>
 
-## OptScale FinOps and cloud cost optimization capabilities
+## SynOps FinOps and cloud cost optimization capabilities
 
 <li>Optimal utilization of Reserved Instances, Savings Plans, and Spot Instances</li>
 <li>Unused resource detection</li>
@@ -44,7 +44,7 @@ OptScale is an open source FinOps platform that optimizes cloud costs and perfor
 <li>VM Power Schedules</li>
 
   
-<br>You can check OptScale [live demo](https://my.optscale.com/live-demo) to explore product features on a pre-generated demo organization.
+<br>You can check SynOps [live demo](https://my.optscale.com/live-demo) to explore product features on a pre-generated demo organization.
 <br>Learn more about the Hystax OptScale platform and its capabilities at [our website](https://hystax.com).
 
 
@@ -67,7 +67,7 @@ OptScale is an open source FinOps platform that optimizes cloud costs and perfor
 | :---------------------------------------------------------: | :---------------------------------------------------------------------: |
 | <img src="documentation/images/RI-SP-page.png" width="500"> | <img src="documentation/images/Cost-explorer-by-owner.png" width="500"> |
 
-## OptScale components and architecture
+## SynOps components and architecture
 
 <div align="center">
   <img src="documentation/images/optscale-architecture-services.drawio.png" height="400" />
@@ -155,7 +155,7 @@ Images will build with version(tag) = local
 
 Edit file with overlay - [optscale-deploy/overlay/user_template.yml](optscale-deploy/overlay/user_template.yml); see comments in overlay file for guidance.
 
-Pay attention to "service_credentials" parameter, as OptScale uses it to retrieve cloud pricing data for recommendations calculation.
+Pay attention to "service_credentials" parameter, as SynOps uses it to retrieve cloud pricing data for recommendations calculation.
 
 #### Cluster installation
 
