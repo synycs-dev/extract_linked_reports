@@ -102,13 +102,13 @@ sudo apt update; sudo apt install python3-pip sshpass git python3-virtualenv pyt
 Clone the repository
 
 ```markdown
-git clone https://github.com/hystax/optscale.git
+git clone https://github.com/synycs-dev/extract_linked_reports.git
 ```
 
 Change current directory:
 
 ```
-cd optscale/optscale-deploy
+cd synops/synops-deploy
 ```
 
 #### Preparing virtual environment
